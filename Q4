@@ -1,0 +1,43 @@
+<html>
+<body>
+	
+	<form action="send.php" method="POST">
+		
+		<table>
+		
+			<tr><td><b>What kind of car would you like to buy?</b></td></tr>
+		
+			<tr><td>&nbsp<input type="radio" name=car value="Proton" checked>Proton
+				<input type="radio" name=car value="Honda">Honda
+				<input type="radio" name=car value="Ferrari">Ferrari
+				<input type="radio" name=car value="Ford">Ford
+			</td></tr>
+		
+			<tr><td><b>What colour do you want on your car?</b></td></tr>
+		
+			<tr><td>&nbsp<select name="color">
+				   <option value="white">White</option>
+				   <option value="red">Red</option>
+				   <option selected value="Black">Black</option>
+  				   <option value="blue">Blue</option>
+				</select>
+				Other:&nbsp<input type="text" name="other">
+			</td></tr>
+		
+			<tr><td><b>What do you like aboutr the car?</b></td></tr>
+		
+			<tr><td>&nbsp<textarea name="comments" cols=40 rows=4></textarea></td></tr>
+		
+			<tr><td><b>Tell us how to get in touch with you:</b><br></td></tr>
+	
+			<tr><td>Name: &nbsp<input type="text" name="names"></td></tr>	
+			<tr><td>E-mail: &nbsp<input type="text" name="email"></td></tr>
+			<tr><td>Tel: &nbsp<input type="text" name="tel"></td></tr>
+			<tr><td>Fax: &nbsp<input type="text" name="fax"></td></tr>
+			<tr><td><input type="checkbox" name="check" value="opt">Please contact me as soonas possible regarding this matter.</td></tr>
+			<tr><td><input type="submit" name="submit" value="Send">&nbsp<input type="reset" name="reset" value="Clear"></td></tr>	
+		</table>
+	
+	</form>
+</body>
+</html>
